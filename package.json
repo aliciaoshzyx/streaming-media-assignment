@@ -1,0 +1,30 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "engines" :{
+    "node" : "8.10.0",
+    "npm" : "6.4.0"
+  },
+  "description": "streaming media assignment",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "text": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliciaoshzyx/streaming-media-assignment.git"
+  },
+  "author": "Alicia Pankratz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliciaoshzyx/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/aliciaoshzyx/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
